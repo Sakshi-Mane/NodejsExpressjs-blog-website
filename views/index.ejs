@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <div class="container">
+      
+    <h1>Spill Your Thoughts</h1>
+    <p>Create a unique and beautiful Blogs.</p>
+    <a  href="/create">Create</a>
+  </div>
+  <div class="list">
+    <ul>
+      <% posts.forEach(post => { %>
+        <li><a href="/post/<%=post.id %>"><%=post.title %></a></li>
+      <% }); %>
+      </ul>
+    </div>
+  
+   
+
+</body>
+</html>

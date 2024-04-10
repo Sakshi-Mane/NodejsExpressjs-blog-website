@@ -1,0 +1,75 @@
+html{
+    background-color: #d9eeeb;
+}
+.create {
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #090909;
+    border-radius: 5px;
+    color: #100f0f;
+    background-color:snow ;
+   
+}
+
+.create h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.create form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create label {
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.create input[type="text"],
+.create textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #080808;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.create textarea {
+    min-height: 200px;
+}
+
+.create input[type="submit"] {
+    padding: 10px 20px;
+    background-color:rgb(157, 67, 157); 
+    color: #070707;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5;
+}
+
+.create input[type="submit"]:hover {
+    background-color: #a84c90; 
+}
+
+
+#titleCharactersLeft {
+    
+    font-size: 16px;
+    color:black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+   
+  }
+  
+  /* #titleCharactersLeft {
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
