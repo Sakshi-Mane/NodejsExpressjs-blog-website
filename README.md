@@ -1,8 +1,8 @@
 # Name
-Blog Website Project
+# Blog Website Project
 
 # Description
-This awesome project is a web application written in EJS templating, Node.js, Express.js, and JavaScript. You can create, read, and remove your blog with this project.
+This project is a web application, this project is made in EJS templating, Node.js, Express.js, and JavaScript. You can create, read, and remove your blog with this project.
  
 
 # Installations
